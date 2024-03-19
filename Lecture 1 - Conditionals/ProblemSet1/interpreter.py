@@ -10,10 +10,10 @@ def aritmetica(x,y,z):
         resultado = float(int(x) - int(z))
         print(f"{x} - {z} = {resultado}")
     elif y == "/" :
-        resultado = float(int(x) - int(z))
+        resultado = float(int(x) / int(z))
         print(f"{x} / {z} = {resultado}")
     elif y == "*" :
-        resultado = float(int(x) - int(z))
+        resultado = float(int(x) * int(z))
         print(f"{x} * {z} = {resultado}")
 
 
